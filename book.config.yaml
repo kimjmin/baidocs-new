@@ -1,0 +1,64 @@
+id: new-book
+title: New Book
+description: nb
+emoji: 📄
+type: document
+branch: docs-latest
+languages:
+  - en
+  - ko
+status: synced
+lastModified: '2026-01-13T06:22:01.027Z'
+navigation:
+  en: &ref_0
+    - title: Home
+      path: index.mdx
+      items: []
+    - title: Getting Started
+      items:
+        - title: Installation
+          path: getting-started/installation/README.md
+          items:
+            - title: Windows
+              path: getting-started/installation/windows.md
+              items: []
+            - title: macOS
+              path: getting-started/installation/macos.md
+              items: []
+        - title: Quick Start
+          path: getting-started/quick-start.md
+          items: []
+    - title: User Guide
+      type: section
+      directory: user-guide
+      items:
+        - title: Configuration
+          path: user-guide/configuration/README.md
+          items:
+            - title: Database
+              path: user-guide/configuration/database.md
+              items: []
+        - title: Basic Features
+          path: user-guide/basic-features.md
+          items: []
+    - title: Advanced Topics
+      type: section
+      directory: advanced
+      items:
+        - title: Performance Optimization
+          path: advanced/performance.md
+          items: []
+        - title: Security
+          path: advanced/security.md
+          items: []
+    - title: Reference
+      type: section
+      directory: reference
+      items:
+        - title: API Reference
+          path: reference/api.md
+          items: []
+        - title: CLI Reference
+          path: reference/cli.md
+          items: []
+  ko: *ref_0
