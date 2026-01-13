@@ -1,0 +1,17 @@
+id: new-book
+title: New Book
+description: nb
+emoji: 📄
+type: document
+branch: docs-latest
+languages:
+  - en
+  - ja
+status: synced
+lastModified: '2026-01-13T06:49:34.420Z'
+navigation:
+  en: &ref_0
+    - title: Home
+      path: index.mdx
+      items: []
+  ja: *ref_0
