@@ -3,7 +3,6 @@ title: New Book
 description: nb
 emoji: 📄
 type: document
-branch: docs-latest
 languages:
   - en
   - ko
