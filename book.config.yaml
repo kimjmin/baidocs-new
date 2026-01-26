@@ -1,0 +1,46 @@
+id: standalone
+title: Stand Alone
+description: Reote Stand Alone
+emoji: 🔍
+type: document
+branch: latest
+languages:
+  - en
+  - ko
+repository: https://github.com/kimjmin/baidocs-new
+remoteBranch: docs-latest
+gitType: remote
+bookType: standalone
+lastModified: '2026-01-26T00:30:57.596Z'
+navigation:
+  en: &ref_0
+    - title: Abstract
+      path: index.mdx
+      items: []
+    - title: Content
+      type: section
+      directory: content
+      items:
+        - title: Introduction
+          path: content/introduction.md
+          items: []
+        - title: Background
+          path: content/background.md
+          items: []
+        - title: Main Content
+          type: section
+          directory: content/main-content
+          items:
+            - title: Part 1
+              path: content/main-content/section-1.md
+              items: []
+            - title: Part 2
+              path: content/main-content/section-2.md
+              items: []
+        - title: Analysis
+          path: content/analysis.md
+          items: []
+        - title: Conclusion
+          path: content/conclusion.md
+          items: []
+  ko: *ref_0
